@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitBills", "SplitBills\SplitBills.csproj", "{A4A8576E-CA1B-4D57-892F-5848B621686B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitBills.Tests", "SplitBills.Tests\SplitBills.Tests.csproj", "{2D6998A7-598E-4F6F-8A6E-0BF4C815FDE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4A8576E-CA1B-4D57-892F-5848B621686B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4A8576E-CA1B-4D57-892F-5848B621686B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4A8576E-CA1B-4D57-892F-5848B621686B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4A8576E-CA1B-4D57-892F-5848B621686B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D6998A7-598E-4F6F-8A6E-0BF4C815FDE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D6998A7-598E-4F6F-8A6E-0BF4C815FDE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D6998A7-598E-4F6F-8A6E-0BF4C815FDE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D6998A7-598E-4F6F-8A6E-0BF4C815FDE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
