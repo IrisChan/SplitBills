@@ -12,7 +12,7 @@ namespace SplitBills
             IFileWriter fileWriter = new TextFileWriter();
             IExpensesCalculator calculator = new ExpensesCalculator();
 
-            SplitBillsService service = new SplitBillsService(fileReader, fileWriter, calculator);
+            IService service = new SplitBillsService(fileReader, fileWriter, calculator);
             service.Serve();
         }
     }

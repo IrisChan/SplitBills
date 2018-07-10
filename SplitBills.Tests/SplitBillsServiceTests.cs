@@ -35,7 +35,21 @@ namespace SplitBills.Tests
                     Assert.Equal(expected[i++], participant.ExpensesShouldBePaid);
                 }
             }
+        }
 
+        [Fact]
+        public void SplitBills_ShouldNotSplitBillsWhenGivenIncorrectDataFile()
+        {
+            string filePath = Path.GetFullPath("Resources/IncorrectDatatestFile.txt");
+
+            IFileReader fileReader = new TextFileReader();
+            IFileWriter fileWriter = new TextFileWriter();
+            IExpensesCalculator calculator = new ExpensesCalculator();
+
+            SplitBillsService service = new SplitBillsService(fileReader, fileWriter, calculator);
+            bool isSuccess = service.SplitBills(filePath);
+
+            Assert.False(isSuccess);
         }
 
 

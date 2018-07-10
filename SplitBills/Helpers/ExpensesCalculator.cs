@@ -3,8 +3,17 @@ using SplitBills.Models;
 
 namespace SplitBills.Helpers
 {
+    /// <summary>
+    /// Expenses calculator to split bills.
+    /// </summary>
     public class ExpensesCalculator : IExpensesCalculator
     {
+        /// <summary>
+        /// Gets the expenses owned by person.
+        /// </summary>
+        /// <returns>The expenses owned by person.</returns>
+        /// <param name="trip">Trip</param>
+        /// <param name="id">Participant Identifier</param>
         public decimal GetExpensesOwnedByPerson(Trip trip, int id)
         {
             decimal amount = decimal.Round(trip.AverageExpenses - trip.Participants[id].ExpensesPaidAlready, 2);
@@ -12,6 +21,10 @@ namespace SplitBills.Helpers
             return amount;
         }
 
+        /// <summary>
+        /// Computes the expenses for each trip.
+        /// </summary>
+        /// <param name="trips">Trips</param>
         public void ComputeExpenses(IList<Trip> trips)
         {
             if (trips == null)

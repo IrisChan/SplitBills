@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{A4A8576E-CA1B-4D57-892F-5848B621686B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SplitBills.Tests/ExpensesCalculatorTests.cs">
+    <Files>
+      <File FileName="SplitBills.Tests/SplitBillsServiceTests.cs" Line="12" Column="6" />
+      <File FileName="SplitBills.Tests/ParticipantTests.cs" Line="31" Column="63" />
+      <File FileName="SplitBills.Tests/TripTests.cs" Line="44" Column="15" />
+      <File FileName="SplitBills.Tests/ExpensesCalculatorTests.cs" Line="7" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SplitBills" expanded="True">
+            <Node name="SplitBills" expanded="True">
+              <Node name="Helpers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="SplitBills.Tests" expanded="True">
+              <Node name="Resources" expanded="True" />
+              <Node name="ExpensesCalculatorTests.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="SplitBills" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.SplitBills PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/iris/Documents/找工/projects/SplitBills/SplitBills/TextFileWriter.cs" relfile="SplitBills/TextFileWriter.cs" line="19" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

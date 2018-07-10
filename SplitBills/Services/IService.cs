@@ -3,6 +3,6 @@ namespace SplitBills.Services
 {
     public interface IService
     {
-        void Serve();
+        bool Serve();
     }
 }

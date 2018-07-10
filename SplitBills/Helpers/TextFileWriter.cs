@@ -5,8 +5,16 @@ using SplitBills.Models;
 
 namespace SplitBills.Helpers
 {
+    /// <summary>
+    /// Text file writer: Write the split bills for each participant to file.
+    /// </summary>
     public class TextFileWriter : IFileWriter
     {
+        /// <summary>
+        /// Writes to file.
+        /// </summary>
+        /// <param name="filePath">File path</param>
+        /// <param name="trips">Trips</param>
         public void WriteToFile(string filePath, IList<Trip> trips)
         {
             if (trips == null)
@@ -26,6 +34,11 @@ namespace SplitBills.Helpers
             }
         }
 
+        /// <summary>
+        /// Writes one trip.
+        /// </summary>
+        /// <param name="trip">Trip</param>
+        /// <param name="sw">Stream Writer</param>
         private void WriteOneTrip(Trip trip, StreamWriter sw)
         {
             for (var i = 0; i < trip.NumberOfParticipents; i ++)
